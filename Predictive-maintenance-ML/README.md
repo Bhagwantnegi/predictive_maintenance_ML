@@ -74,11 +74,11 @@ Fleet vehicles often experience unexpected failures due to lack of predictive in
 ---
 
 ## 📊 Model Performance
-- Accuracy: ~70%
-- Precision and recall are reasonably balanced across classes
-- Suitable for proof-of-concept predictive modeling
+- Accuracy: ~90% on a small (50-row) simulated dataset
+- Precision and recall vary by class due to limited samples in the minority class
 
-⚠️ **Note:** This is a proof-of-concept with simulated labels.
+
+⚠️ **Note:** dataset is a small simulated sample intended to demonstrate the ML pipeline end-to-end, not to represent production-scale performance.
 
 ---
 
