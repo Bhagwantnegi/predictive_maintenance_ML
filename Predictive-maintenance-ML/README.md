@@ -1,102 +1,127 @@
-🚗 Predictive Maintenance for Fleet Vehicles
-📌 Overview
+# 🚗 Predictive Maintenance for Fleet Vehicles
 
-This project demonstrates an end-to-end machine learning pipeline to predict potential vehicle failures using sensor data. It combines data analysis, model development, and deployment to simulate a real-world predictive maintenance solution.
+## 📌 Overview
+This project demonstrates an end-to-end machine learning pipeline to predict potential vehicle failures using sensor data.
 
-The goal is to enable proactive maintenance, reduce downtime, and improve operational efficiency in fleet systems.
+It covers:
+- Data preprocessing
+- Model development
+- Evaluation
+- Deployment using Streamlit
 
-🎯 Problem Statement
+---
 
-Fleet vehicles often experience unexpected failures due to lack of predictive insights, leading to:
+## 📁 Project Structure
 
-Increased maintenance costs
-Unplanned downtime
-Reduced operational efficiency
-
-👉 This project builds a model to predict failure risk early using sensor data.
-
-🧠 Solution Approach
-🔹 Data Preparation
-Loaded and explored structured vehicle sensor dataset
-Selected relevant features for modeling
-🔹 Features Used
-Engine Temperature (engine_temp_c)
-Vibration (vibration_mm_s)
-Average RPM (avg_rpm)
-Error Count (error_code_count)
-Battery Voltage (battery_voltage)
-📸 Dataset Preview
-![Dataset](images/dataset.png)
-
-Explanation:
-This dataset contains key operational metrics collected from vehicles. These features help identify abnormal patterns that may indicate potential failures.
-
-🤖 Model Development
-Algorithm: Random Forest Classifier
-Train-Test Split: 80-20
-Target: Binary classification (failure risk)
-📸 Model Code & Output
-![Model Output](images/model_output.png)
-
-Explanation:
-The model is trained on selected features and evaluated using classification metrics such as precision, recall, and F1-score.
-
-📊 Model Performance Summary
-Accuracy: ~70%
-Balanced precision and recall
-Demonstrates ability to classify failure risk
-
-⚠️ Note:
-This is a proof-of-concept project. The target variable is simulated to demonstrate the machine learning workflow.
-
-⚙️ Tech Stack
-Programming: Python
-Libraries: Pandas, NumPy, scikit-learn, Matplotlib
-Environment: Jupyter Notebook / VS Code
-Deployment: Streamlit
-🌐 Streamlit Application
-
-This project includes a simple interactive app for predictions.
-
-▶️ Run Locally:
-pip install -r requirements.txt
-streamlit run app.py
-📸 Streamlit App 
-
-![Streamlit App](images/streamlit_app.png)
-
-
-📁 Project Structure
-predictive-maintenance-ml/
+```
+predictive_maintenance_ML/
 │
-├── notebook/
+├── Notebook/
 │   └── Predictive_Maintenance_Notebook.ipynb
-│
-├── data/
+├── Data/
 │   └── sample_vehicle_sensor_data.csv
-│
-├── images/
-│   ├── dataset.png
-│   ├── model_output.png
-│   └── streamlit_app.png
-│
-├── app.py
+├── Images/
+│   ├── Dataset.png
+│   ├── Model_output.png
+│   └── Streamlit_app.png
+├── Streamlit_App/
+│   └── app.py
 ├── requirements.txt
 └── README.md
+```
 
-💼 Business Impact
-Enables proactive maintenance decisions
-Reduces unexpected breakdowns
-Improves operational efficiency
-Demonstrates real-world ML application in automotive systems
+---
 
-🚀 Future Improvements
-Use real labeled failure data
-Incorporate time-series analysis
-Improve model accuracy with advanced algorithms
-Deploy as a cloud-based API
+## 🎯 Problem Statement
 
-👨‍💻 Author
+Fleet vehicles often experience unexpected failures due to lack of predictive insights, leading to:
+- Increased downtime
+- Higher maintenance costs
+- Operational inefficiencies
 
-Bhagwant Singh Negi
-M.S. Applied Data Analytics
+👉 This project predicts failure risks early using sensor data.
+
+---
+
+## 🧠 Solution Approach
+
+### 🔹 Features Used
+- Engine Temperature
+- Vibration Levels
+- RPM
+- Error Count
+- Battery Voltage
+
+---
+
+## 📸 Dataset Preview
+
+![Dataset](Images/Dataset.png)
+
+---
+
+## 🤖 Model Development
+- Algorithm: Random Forest Classifier
+- Train-Test Split: 80-20
+- Objective: Binary classification
+
+---
+
+## 📸 Model Output
+
+![Model Output](Images/Model_output.png)
+
+---
+
+## 📊 Model Performance
+- Accuracy: ~70%
+- Precision and recall are reasonably balanced across classes
+- Suitable for proof-of-concept predictive modeling
+
+⚠️ **Note:** This is a proof-of-concept with simulated labels.
+
+---
+
+## 🖥️ Streamlit App Preview
+
+![Streamlit App](Images/Streamlit_app.png)
+
+---
+
+## ⚙️ Tech Stack
+- Python
+- Pandas, NumPy
+- scikit-learn
+- Matplotlib
+- Streamlit
+
+---
+
+## 🌐 Run the App
+
+```bash
+pip install -r requirements.txt
+cd Streamlit_App
+streamlit run app.py
+```
+
+---
+
+## 📓 Run Notebook (Azure ML)
+1. Open Azure ML Studio
+2. Navigate to Notebooks
+3. Upload notebook file (`Notebook/Predictive_Maintenance_Notebook.ipynb`)
+4. Start compute instance
+5. Select kernel (Python 3.10)
+6. Run all cells
+
+---
+
+## 💡 Key Skills Demonstrated
+- Machine Learning (Classification)
+- Data Preprocessing
+- Model Evaluation
+- Azure ML (Cloud ML execution)
+- Streamlit App Deployment
+- GitHub Project Structuring
+
