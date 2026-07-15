@@ -16,18 +16,19 @@ It covers:
 ```
 predictive_maintenance_ML/
 │
-├── Notebook/
-│   └── Predictive_Maintenance_Notebook.ipynb
-├── Data/
-│   └── sample_vehicle_sensor_data.csv
-├── Images/
-│   ├── Dataset.png
-│   ├── Model_output.png
-│   └── Streamlit_app.png
-├── Streamlit_App/
-│   └── app.py
-├── requirements.txt
-└── README.md
+└── Predictive-maintenance-ML/
+    ├── Notebook/
+    │   └── Predictive_Maintenance_Notebook.ipynb
+    ├── Data/
+    │   └── sample_vehicle_sensor_data.csv
+    ├── Images/
+    │   ├── Dataset.png
+    │   ├── Model_output.png
+    │   └── Streamlit_app.png
+    ├── Streamlit_App/
+    │   └── app.py
+    ├── requirements.txt
+    └── README.md
 ```
 
 ---
@@ -56,7 +57,7 @@ Fleet vehicles often experience unexpected failures due to lack of predictive in
 
 ## 📸 Dataset Preview
 
-![Dataset](Images/Dataset.png)
+![Dataset](Predictive-maintenance-ML/Images/Dataset.png)
 
 ---
 
@@ -69,7 +70,7 @@ Fleet vehicles often experience unexpected failures due to lack of predictive in
 
 ## 📸 Model Output
 
-![Model Output](Images/Model_output.png)
+![Model Output](Predictive-maintenance-ML/Images/Model_output.png)
 
 ---
 
@@ -84,7 +85,7 @@ Fleet vehicles often experience unexpected failures due to lack of predictive in
 
 ## 🖥️ Streamlit App Preview
 
-![Streamlit App](Images/Streamlit_app.png)
+![Streamlit App](Predictive-maintenance-ML/Images/Streamlit_app.png)
 
 ---
 
