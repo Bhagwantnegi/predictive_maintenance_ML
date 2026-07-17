@@ -75,7 +75,7 @@ Fleet vehicles often experience unexpected failures due to lack of predictive in
 ---
 
 ## 📊 Model Performance
-- Accuracy: ~70%
+- Accuracy: ~90%
 - Precision and recall are reasonably balanced across classes
 - Suitable for proof-of-concept predictive modeling
 
